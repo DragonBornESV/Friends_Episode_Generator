@@ -293,7 +293,7 @@ class Generator:
             video = (str(self.season) + "_" + str(self.episode) + ".mp4")
             print(video)
             os.system("start " + video)
-            print("If yoy have the videofile for the episode labeld " + str(video) + " you can play it from this progran")
+            print("If you have the videofile for the episode labeled " + str(video) + " you can play it from this progran")
             print(" ")
         elif play_or_return == "return":
             self.state_1()
