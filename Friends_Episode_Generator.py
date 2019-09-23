@@ -3,7 +3,7 @@
 #   Random_Friend_Generator     #
 #   by M. E. Rasmussen          #
 #   Started 09. sep. 2019       #
-#   Finished                    #
+#   Finished 18. sep. 2019      #
 #                               #
 #*******************************#
 
@@ -237,9 +237,9 @@ class Generator:
         self.random_ep = False
         self.episode = 0
         self.season = 0
-        first_imput = (input('Imput "random" to generate a randome episode, or imput a number between 1 and 10, to select a season:\n'))
+        first_imput = (input('Imput "random" to generate a random episode, or imput a number between 1 and 10, to select a season:\n'))
 
-        if first_imput == "random":
+        if first_imput == "random" or first_imput == "tilfældig":
             self.random_ep = True
             self.generate_episode()
 
